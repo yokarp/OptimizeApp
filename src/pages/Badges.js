@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/Badges.css';
-import confLogo from '../images/logo3.svg';
+import confLogo from '../images/Tardigrade-logo.svg';
 import BadgesList from '../components/BadgesList';
 
 class Badges extends React.Component {

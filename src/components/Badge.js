@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles/Badge.css';
-import confLogo from '../images/logo3.svg';
+import confLogo from '../images/Tardigrade-logo.svg';
 
 class Badge extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class Badge extends React.Component {
           <div>@{this.props.twitter}</div>
         </div>
 
-        <div className="Badge__footer">#OptimizApp</div>
+        <div className="Badge__footer">@tardigradesoft</div>
       </div>
     );
   }

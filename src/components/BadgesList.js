@@ -12,14 +12,7 @@ class BadgesListItem extends React.Component {
           alt={`${this.props.badge.firstName} ${this.props.badge.lastName}`}
         />
 
-        <div>
-          <strong>
-            {this.props.badge.firstName} {this.props.badge.lastName}
-          </strong>
-          <br />@{this.props.badge.twitter}
-          <br />
-          {this.props.badge.jobTitle}
-        </div>
+      
       </div>
     );
   }
