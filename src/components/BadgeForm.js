@@ -28,16 +28,7 @@ class BadgeForm extends React.Component {
             />
           </div>
 
-          <div className="form-group">
-            <label>Área en la que se desenvuelven</label>
-            <input
-              onChange={this.props.onChange}
-              className="form-control"
-              type="text"
-              name="lastName"
-              value={this.props.formValues.lastName}
-            />
-          </div>
+       
 
           <div className="form-group">
             <label>Correo de contacto</label>
@@ -50,16 +41,7 @@ class BadgeForm extends React.Component {
             />
           </div>
 
-          <div className="form-group">
-            <label>Tiempo requerido</label>
-            <input
-              onChange={this.props.onChange}
-              className="form-control"
-              type="text"
-              name="jobTitle"
-              value={this.props.formValues.jobTitle}
-            />
-          </div>
+       
 
           <div className="form-group">
             <label>Instagram</label>

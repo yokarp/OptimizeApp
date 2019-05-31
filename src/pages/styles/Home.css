@@ -1,7 +1,7 @@
 .Home {
   width: 100%;
   min-height: calc(100vh - 60px);
-  background: url('../../images/stars.svg'), #1B1B25;
+  background: url('../../images/stars.svg'), rgb(18, 219, 209);
   background-repeat: repeat;
 
   color: #ffffff;

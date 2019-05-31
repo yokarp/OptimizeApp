@@ -18,7 +18,7 @@ export default class Home extends Component {
                 </h2>
               </div>
 
-              <h1>TardigradeSoft</h1>
+              <h1>sofTardigraDef</h1>
               <Link className="btn btn-primary" to="/badges">
                 Vinculate
               </Link>
