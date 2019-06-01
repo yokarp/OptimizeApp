@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './styles/BadgeNew.css';
-import header from '../images/Tardigrade-logo.svg';
 import Badge from '../components/Badge';
 import BadgeForm from '../components/BadgeForm';
 
