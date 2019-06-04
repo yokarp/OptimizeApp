@@ -3,7 +3,8 @@
   padding: 2rem 0;
   background: url('../../images/stars.svg'), rgb(56, 180, 211);
   background-repeat: repeat;
-  margin-bottom: 1rem;
+  
+  text-align: center;
 }
 
 .Badges__hero>.Badges__container {
@@ -24,8 +25,28 @@
 }
 
 .Badges__buttons {
-  width: 55%;
+  width: 56%;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1rem;
+  position: absolute;
+}
+
+.Badges__buttons:hover{
+  -webkit-animation: tiembla 2s infinite;
+}
+
+@-webkit-keyframes tiembla{
+  0%{-webkit-transform: rotateY(-5deg);}
+  20%{-webkit-transform: rotateZ(5deg);}
+  50%{-webkit-transform: rotateZ(0deg) scale(.8);}
+  100%{-webkit-transform: rotateZ(0deg);}
+}
+
+.parrafo{
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin-left: 250px;
 }

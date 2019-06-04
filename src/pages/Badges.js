@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './styles/Badges.css';
+import hjc from '../images/LogoHJC.png';
 
 class Badges extends React.Component {
   constructor(props) {
@@ -18,38 +19,7 @@ class Badges extends React.Component {
 
     this.timeoutId = setTimeout(() => {
       this.setState({
-        data: [
-          {
-            id: '2de30c42-9deb-40fc-a41f-05e62b5939a7',
-            firstName: 'Hamburguesas',
-            lastName: 'Lili',
-            email: 'hambuerguesaLili@gmail.com',
-            jobTitle: '2 - 3 meses',
-            twitter: 'HamburguesasLili',
-            avatarUrl:
-              'https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon',
-          },
-          {
-            id: 'd00d3614-101a-44ca-b6c2-0be075aeed3d',
-            firstName: 'Panaderia Lola',
-            lastName: 'Reposteria',
-            email: 'panaderiaLola@hotmail.com',
-            jobTitle: '2 - 4 meses',
-            twitter: 'panaderiaLola',
-            avatarUrl:
-              'https://www.gravatar.com/avatar/d57a8be8cb9219609905da25d5f3e50a?d=identicon',
-          },
-          {
-            id: '63c03386-33a2-4512-9ac1-354ad7bec5e9',
-            firstName: 'Dogstu',
-            lastName: 'Animales',
-            email: 'Dogstu@hotmail.com',
-            jobTitle: '1 - 4 meses',
-            twitter: 'Dogstu',
-            avatarUrl:
-              'https://www.gravatar.com/avatar/e74e87d40e55b9ff9791c78892e55cb7?d=identicon',
-          },
-        ],
+       
       });
     }, 3000);
   }
@@ -78,7 +48,7 @@ class Badges extends React.Component {
       <React.Fragment>
         <div className="Badges">
           <div className="Badges__hero">
-           
+           <h1>Bienvenido al mundo de oportunidades digitales que le ofrecemos</h1>
           </div>
         </div>
 
@@ -88,6 +58,17 @@ class Badges extends React.Component {
             <Link to="/badges/new" className="btn btn-primary">
               Nueva vinculación
             </Link>
+          </div>
+
+          <h1 className="Badges__hero"><br></br>Nuestros resultados</h1>
+          <div>
+            <img src={hjc} alt="ImagenHJC" className="parrafo"></img>
+           
+            <div className="parrafo">
+              <p>
+              Aplicativo que sistematiza la gestión de la información de HJC Electronis SAS, de técnicos, clientes, servicios técnicos, productos, historial de revisiones , inventario de repuestos, nómina, cuenta de cobro, facturación, historia clínica de productos, fallas de productos, documentación técnica de productos, informes técnicos, y rutas, con el fin de integrar toda la información de la empresa y optimizar los procesos de ingreso, modificación, y búsqueda, así como la generación de reportes estadísticos, de tal forma que se reduzcan tiempos y esfuerzos empleados en dicha labor, y se agilice la toma de decisiones a nivel administrativo a final de mes. 
+              </p>
+            </div>
           </div>
 
          
