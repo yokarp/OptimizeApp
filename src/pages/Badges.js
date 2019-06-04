@@ -60,7 +60,7 @@ class Badges extends React.Component {
             </Link>
           </div>
 
-          <h1 className="Badges__hero"><br></br>Nuestros resultados</h1>
+          <h1 className="Badges__hero"><br></br>Nuestros clientes</h1>
           <div>
             <img src={hjc} alt="ImagenHJC" className="parrafo"></img>
            
